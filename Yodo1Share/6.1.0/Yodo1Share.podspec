@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   s.public_header_files = ["Yodo1Share/**/*.h"]
   
-  s.resources = ["Yodo1Share/*.bundle"]
+  s.resources = ["*.bundle"]
   
 #  s.vendored_frameworks = ["Yodo1Share/libs/Tencent/TencentOpenAPI.framework"]
   
@@ -71,7 +71,7 @@ Pod::Spec.new do |s|
   'c++',
   'z']
   
-  s.dependency 'Yodo1Commons','6.1.0'
+  s.dependency 'Yodo1Commons','6.0.4'
   s.dependency 'Yodo1Qrencode','6.1.0'
   s.dependency 'Yodo1QQSDK','6.1.0'
   s.dependency 'Yodo1FBSDKShareKit','6.1.0'
