@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'Yodo1Notification'
     s.version          = '6.1.0'
-    s.summary          = 'v'
+    s.summary          = 'v '
 
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
