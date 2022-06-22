@@ -15,7 +15,6 @@ Pod::Spec.new do |s|
     # s.source           = { :http => "https://cocoapods.yodo1api.com/foundation/" + "#{s.name}" + "/"+ "#{s.version}" + ".zip" }
 
     s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-SDK-iOS.git', :tag => "#{s.name}#{s.version}" }
-    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '9.0'
 
@@ -34,7 +33,6 @@ Pod::Spec.new do |s|
 
     s.xcconfig = {
         "OTHER_LDFLAGS" => "-ObjC",
-        "ENABLE_BITCODE" => "NO",
         "VALID_ARCHS": "armv7 arm64",
         "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
         "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
@@ -58,7 +56,6 @@ Pod::Spec.new do |s|
         'MapKit',
         'Social',
         'StoreKit',
-        'Twitter',
         'WebKit',
         'SystemConfiguration',
         'AudioToolbox',
@@ -76,6 +73,6 @@ Pod::Spec.new do |s|
         'sqlite3.0',
         'c++',
         'z']
-    s.dependency 'Yodo1Commons', '6.1.0'
+    s.dependency 'Yodo1Commons', '6.1.1'
 
 end
