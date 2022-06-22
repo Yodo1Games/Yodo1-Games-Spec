@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
     s.name             = 'Yodo1Notification'
     s.version          = '6.1.0'
-    s.summary          = 'v '
+    s.summary          = 'v'
 
     s.description      = <<-DESC
     TODO: Add long description of the pod here.
@@ -33,7 +33,6 @@ Pod::Spec.new do |s|
 
     s.xcconfig = {
         'OTHER_LDFLAGS' => '-ObjC',
-        'ENABLE_BITCODE' => "NO",
         "VALID_ARCHS": "armv7 arm64",
         "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
         "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
@@ -57,7 +56,6 @@ Pod::Spec.new do |s|
         'MapKit',
         'Social',
         'StoreKit',
-        'Twitter',
         'WebKit',
         'SystemConfiguration',
         'AudioToolbox',
@@ -76,5 +74,5 @@ Pod::Spec.new do |s|
         'c++',
         'z']
 
-    s.dependency 'Yodo1Commons','6.1.0'
+    s.dependency 'Yodo1Commons','6.1.1'
 end
