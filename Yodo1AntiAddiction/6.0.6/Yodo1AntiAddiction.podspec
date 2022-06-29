@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.name             = 'Yodo1AntiAddiction'
     s.version          = '6.0.6'
     s.summary          = '防沉迷3.0，修复bug/添加控制游客开关功能/提升版本号
-                          修改客户端文案，更新 2022年节假日列表'
+                          修改客户端文案，更新2022年节假日列表'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -11,7 +11,7 @@ TODO: Add long description of the pod here.
     
     s.license          = { :type => 'MIT', :file => "LICENSE" }
     
-    s.author           = { 'yixian huang' => 'huangyixian@yodo1.com' }
+    s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
     
     s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-SDK-iOS.git', :tag => "#{s.name}#{s.version}" }
 
@@ -42,9 +42,9 @@ TODO: Add long description of the pod here.
   s.libraries = 'sqlite3', 'z'
   s.compiler_flags = '-Dunix'
 
-  s.dependency 'Yodo1OnlineParameter'
-  s.dependency 'Yodo1Commons'
-  s.dependency 'Yodo1Purchase'
+  s.dependency 'Yodo1OnlineParameter', '6.1.0'
+  s.dependency 'Yodo1Commons', '6.1.1'
+  s.dependency 'Yodo1Purchase', '6.1.3'
   s.dependency 'TPKeyboardAvoiding'
   s.dependency 'FMDB'
   s.dependency 'Masonry'
