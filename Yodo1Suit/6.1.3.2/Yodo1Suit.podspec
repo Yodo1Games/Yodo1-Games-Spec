@@ -70,7 +70,7 @@ Pod::Spec.new do |s|
 
         ss.dependency 'Yodo1Analytics','6.1.8'
         ss.dependency 'Yodo1OnlineParameter','6.1.1'
-	ss.dependency 'Yodo1Share','6.1.4'
+	ss.dependency 'Yodo1Share','6.1.4.1'
         ss.dependency 'Yodo1Commons','6.1.1'
        
     end
@@ -111,7 +111,7 @@ Pod::Spec.new do |s|
             "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
             "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
         }
-        ss.dependency 'Yodo1Share','6.1.4'
+        ss.dependency 'Yodo1Share','6.1.4.1'
         ss.dependency 'Yodo1Suit/Yodo1_Suit',"#{s.version}"
     end
 
