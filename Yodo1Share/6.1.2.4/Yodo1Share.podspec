@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-SDK-iOS.git', :tag => "#{s.name}#{s.version}" }
   
   
-  s.ios.deployment_target = '12.2'
+  s.ios.deployment_target = '10.0'
   
   #s.vendored_libraries = ["Yodo1Share/*.a"]
   
