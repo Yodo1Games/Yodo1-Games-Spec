@@ -19,9 +19,9 @@ TODO: Add long description of the pod here.
   s.public_header_files = 'Yodo1AntiAddiction/Classes/**/*.h'
 
   # 用于解决Unity2019.3.0(包含2019.3.0)以上无法读取问题，Unity会添加CCopy资源脚本
-  s.resource_bundles = {
-    'Yodo1AntiAddictionResource' => ['Yodo1AntiAddiction/Assets/*']
-  }
+#  s.resource_bundles = {
+#    'Yodo1AntiAddictionResource' => ['Yodo1AntiAddiction/Assets/*']
+#  }
 
   # 用于解决Unity2019.3.0(不包含2019.3.0)以下以及native原生资源无法读取问题
   s.resources = 'Yodo1AntiAddiction/Assets/*.png'
