@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
     s.weak_frameworks = []
     s.libraries = []
 
-    s.dependency 'Yodo1Commons', '6.1.1'
+    s.dependency 'Yodo1Commons', '6.1.2'
 
 end
