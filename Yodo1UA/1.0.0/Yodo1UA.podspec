@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
     s.weak_frameworks = []
     s.libraries = []
 
-    s.dependency 'Yodo1Commons','6.1.1'
+    s.dependency 'Yodo1Commons','6.1.2'
     s.dependency 'AppsFlyerFramework', '6.7.0'
 #    s.dependency 'ThinkingSDK','2.8.1.1'
 
