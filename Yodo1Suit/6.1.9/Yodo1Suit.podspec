@@ -83,7 +83,7 @@ Pod::Spec.new do |s|
             "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
         }
         ss.dependency 'Yodo1iCloud','6.1.1'
-        ss.dependency 'Yodo1GameCenter','6.2.0'
+        ss.dependency 'Yodo1GameCenter','6.2.1'
         ss.dependency 'Yodo1iRate','6.1.0'
         ss.dependency 'Yodo1Replay','6.1.1'
         ss.dependency 'Yodo1Notification','6.1.1'
