@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
         'c++',
         'z']
 
-        ss.dependency 'Yodo1Analytics','6.2.4'
+        ss.dependency 'Yodo1Analytics','6.2.5'
         ss.dependency 'Yodo1OnlineParameter','6.1.2'
         ss.dependency 'Yodo1Commons','6.1.2'
        
