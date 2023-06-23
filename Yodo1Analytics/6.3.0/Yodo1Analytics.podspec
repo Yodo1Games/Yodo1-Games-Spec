@@ -63,7 +63,7 @@ Pod::Spec.new do |s|
     'AdServices',
     'AppTrackingTransparency'
     ]
-    sub.dependency 'Yodo1Analytics/Core', '6.3.0'
+    sub.dependency 'Yodo1Analytics/Core', "#{s.version}"
   end
   
   s.subspec 'Adjust' do |sub|
@@ -76,6 +76,6 @@ Pod::Spec.new do |s|
     'StoreKit',
     'AppTrackingTransparency'
     ]
-    sub.dependency 'Yodo1Analytics/Core', '6.3.0'
+    sub.dependency 'Yodo1Analytics/Core', "#{s.version}"
   end
 end
