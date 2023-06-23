@@ -49,29 +49,27 @@ Pod::Spec.new do |s|
     ss.dependency 'Yodo1UCenter','6.3.0'
   end
   
-  # s.subspec 'Yodo1_UA_Adjust' do |ss|
-  #   ss.xcconfig = {
-  #     "GCC_PREPROCESSOR_DEFINITIONS" => 'YODO1_UCCENTER',
-  #     'OTHER_LDFLAGS' => '-ObjC',
-  #     "VALID_ARCHS": "armv7 arm64",
-  #     "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
-  #     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
-  #   }
-  #   ss.dependency 'Yodo1Analytics/Adjust','6.3.0'
-  #   ss.dependency 'Yodo1Suit/Yodo1_Suit',"#{s.version}"
-  # end
+  s.subspec 'Yodo1_UA_Adjust' do |ss|
+    ss.xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC',
+      "VALID_ARCHS": "armv7 arm64",
+      "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
+      "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    }
+    ss.dependency 'Yodo1Analytics/Adjust','6.3.0'
+    ss.dependency 'Yodo1Suit/Yodo1_Suit',"#{s.version}"
+  end
   
-  # s.subspec 'Yodo1_UA_AppsFlyer' do |ss|
-  #   ss.xcconfig = {
-  #     "GCC_PREPROCESSOR_DEFINITIONS" => 'YODO1_UCCENTER',
-  #     'OTHER_LDFLAGS' => '-ObjC',
-  #     "VALID_ARCHS": "armv7 arm64",
-  #     "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
-  #     "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
-  #   }
-  #   ss.dependency 'Yodo1Analytics/AppsFlyer','6.3.0'
-  #   ss.dependency 'Yodo1Suit/Yodo1_Suit',"#{s.version}"
-  # end
+  s.subspec 'Yodo1_UA_AppsFlyer' do |ss|
+    ss.xcconfig = {
+      'OTHER_LDFLAGS' => '-ObjC',
+      "VALID_ARCHS": "armv7 arm64",
+      "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
+      "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    }
+    ss.dependency 'Yodo1Analytics/AppsFlyer','6.3.0'
+    ss.dependency 'Yodo1Suit/Yodo1_Suit',"#{s.version}"
+  end
   
   s.subspec 'Yodo1_UnityConfigKey' do |ss|
     ss.xcconfig = {
