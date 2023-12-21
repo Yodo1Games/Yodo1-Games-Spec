@@ -48,4 +48,6 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.dependency 'FMDB'
   s.dependency 'Yodo1Suit/Base'
+  
+  
 end
