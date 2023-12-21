@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
   s.xcconfig = {
     "OTHER_LDFLAGS" => "-ObjC",
-    #    "GENERATE_INFOPLIST_FILE" => "YES"
   }
   s.pod_target_xcconfig = {
     "VALID_ARCHS" => "arm64 arm64e armv7 armv7s x86_64",
@@ -49,4 +48,5 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
   s.dependency 'FMDB'
   s.dependency 'Yodo1Suit/Base'
+  
 end
