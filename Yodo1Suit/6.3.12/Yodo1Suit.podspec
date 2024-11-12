@@ -55,6 +55,7 @@ sub1.source_files = s.name + '/Analytics/Classes/Core/**/*'
 sub1.public_header_files = s.name + '/Analytics/Classes/Core/**/*.h'
 
 sub1.dependency 'ThinkingSDK','3.0.2'
+sub1.dependency 'ThinkingDataCore','1.0.2'
 sub1.dependency 'TAThirdParty','0.3.2'
 end
 
