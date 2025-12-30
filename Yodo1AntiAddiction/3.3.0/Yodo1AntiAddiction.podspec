@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Yodo1AntiAddiction'
-  s.version          = '3.3.0'
+  s.version = '3.3.0'
   s.summary          = 'Yodo1 Anti-Addiction SDK for iOS'
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   
   s.homepage         = 'https://www.yodo1.com/'
   s.author           = { 'Yodo1Games' => 'devadmin@yodo1.com' }
-  s.source           = { :git => 'https://github.com/Yodo1Games/Yodo1-SDK-iOS.git', :tag => "#{s.name}#{s.version}" }
+  s.source = { :http => 'https://sdk-artifacts.yodo1.com/Yodo1AntiAddiction/3.3.0/iOS/Release/Yodo1AntiAddiction-3.3.0.zip' }
   
   s.ios.deployment_target = '12.0'
   
@@ -28,10 +28,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.xcconfig = {
-    "OTHER_LDFLAGS" => "-ObjC",
-    "VALID_ARCHS": "armv7 arm64",
-    "VALID_ARCHS[sdk=iphoneos*]": "armv7 arm64",
-    "VALID_ARCHS[sdk=iphonesimulator*]": "x86_64"
+    "OTHER_LDFLAGS" => "-ObjC"
   }
   
   s.frameworks = 'CoreTelephony','CoreLocation','MobileCoreServices','SystemConfiguration','Security'
@@ -49,3 +46,4 @@ Pod::Spec.new do |s|
   s.dependency 'Yodo1Suit/Base'
   s.dependency 'Yodo1Suit/UCenter'
 end
+
